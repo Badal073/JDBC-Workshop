@@ -20,4 +20,7 @@ public class EmployeeConstant {
 	public static final String USERNAME = "root" ;
 	public static final String PASSWORD = "root" ;
 	public static final String INSERT_QUERY = "INSERT INTO JDBCEmployee (id, name, department , salary) VALUES (?, ?, ?, ?)";
+	public static final String GET_QUERY = " SELECT * FROM JDBCEmployee";
+	public static final String DELETE_BY_ID_QUERY = " DELETE FROM JDBCEmployee WHERE ID =?";
 }
+
